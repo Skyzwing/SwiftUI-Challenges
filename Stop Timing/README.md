@@ -1,4 +1,4 @@
-# SwiftUI-Challenges
+# Stopwatch
 
 Stopwatch with button for start time and stop for pause time
 
