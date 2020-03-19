@@ -16,8 +16,10 @@ enum GameState {
 
 struct ContentView: View {
     
-    @State var timeRemaining:Double = 0.00
+    @State var timeRemaining:Double = 0.0
     @State var startState = false
+    @State var stopState = false
+    @State var againState = false
     var startText = "Start !"
     var stopText = "Stop !"
     var againText = "Again !"
@@ -48,7 +50,27 @@ struct ContentView: View {
                                 .foregroundColor(.white).font(.system(size: 30, weight: .bold, design: .default)).cornerRadius(60)
                                 .padding()
                         }
-                        
+                        else if startState == true && stopState == false {
+                            Button(stopText) {
+                                self.stopState.toggle()
+                                self.timer.connect().cancel()
+                            }.padding().padding(.leading, 40).padding(.trailing, 40)
+                            .background(Color.blue)
+                            .foregroundColor(.white).font(.system(size: 30, weight: .bold, design: .default)).cornerRadius(60)
+                            .padding()
+                        }
+                        else {
+                            Button(againText) {
+                                self.againState.toggle()
+                                self.timeRemaining = 0.0
+                                self.startState = false
+                                self.stopState = false
+                                print("\(self.startState) + \(self.stopState)")
+                            }.padding().padding(.leading, 40).padding(.trailing, 40)
+                            .background(Color.blue)
+                            .foregroundColor(.white).font(.system(size: 30, weight: .bold, design: .default)).cornerRadius(60)
+                            .padding()
+                        }
                         Text("Skyzwing").font(.caption).padding(.bottom, 50)
                     }
                 }
