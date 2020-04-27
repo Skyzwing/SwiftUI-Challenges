@@ -9,8 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let desc = ["sss", "aaa", "bbb"]
+    
     var body: some View {
-        Text("Hello, World!")
+        
+        NavigationView {
+            List(desc, id: \.self) { i in
+                NavigationLink(destination: RoomView()) {
+                Text(i)
+                }
+            }.navigationBarTitle("Oat Apartment")
+        }
     }
 }
 

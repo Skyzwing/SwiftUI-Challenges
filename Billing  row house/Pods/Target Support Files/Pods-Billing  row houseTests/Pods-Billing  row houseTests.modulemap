@@ -1,0 +1,6 @@
+framework module Pods_Billing__row_houseTests {
+  umbrella header "Pods-Billing  row houseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
