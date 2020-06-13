@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>810205243995-3cqrj5iumrb3aec8snivd1l2a1l5v7g9.apps.googleusercontent.com</string>
+	<string>240712297584-3d2em4kqdvfmnhnaph3phhljgtucp8qv.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.810205243995-3cqrj5iumrb3aec8snivd1l2a1l5v7g9</string>
+	<string>com.googleusercontent.apps.240712297584-3d2em4kqdvfmnhnaph3phhljgtucp8qv</string>
 	<key>API_KEY</key>
-	<string>AIzaSyD8wznXz8dK_Pn_0njWvre4akyVbhQ4-CI</string>
+	<string>AIzaSyA532J647yT-41Y6p0RxWYmzJ0BHdioVss</string>
 	<key>GCM_SENDER_ID</key>
-	<string>810205243995</string>
+	<string>240712297584</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>surachet.skyzwing.Billing--row-house</string>
+	<string>surachet.skyzwing.Billing-Apartment</string>
 	<key>PROJECT_ID</key>
-	<string>row-house-billing</string>
+	<string>billing-apartment</string>
 	<key>STORAGE_BUCKET</key>
-	<string>row-house-billing.appspot.com</string>
+	<string>billing-apartment.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:810205243995:ios:e6c5423764442c5a9b6d7e</string>
+	<string>1:240712297584:ios:4bed3b3d1c829ce0cb18b5</string>
 	<key>DATABASE_URL</key>
-	<string>https://row-house-billing.firebaseio.com</string>
+	<string>https://billing-apartment.firebaseio.com</string>
 </dict>
 </plist>
