@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_Billing__row_house_Billing__row_houseUITests : NSObject
-@end
-@implementation PodsDummy_Pods_Billing__row_house_Billing__row_houseUITests
-@end
